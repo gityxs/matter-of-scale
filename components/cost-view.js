@@ -4,25 +4,25 @@
 
 var UpgradeImageView = React.createClass({
 	render: function() {
-		return React.createElement("img", {src: "/img/upgrade_icon.png"});
+		return React.createElement("img", {src: "img/upgrade_icon.png"});
 	}
 });
 
 var IncomeImageView = React.createClass({
 	render: function() {
-		return React.createElement("img", {src: "/img/level"+this.props.level+"curr.png"});
+		return React.createElement("img", {src: "img/level"+this.props.level+"curr.png"});
 	}
 });
 
 var PrestigeImageView = React.createClass({
 	render: function() {
-		return React.createElement("img", {src: "/img/level"+this.props.level+"pres.png"});
+		return React.createElement("img", {src: "img/level"+this.props.level+"pres.png"});
 	}
 });
 
 var TimeImageView = React.createClass({
 	render: function() {
-		return React.createElement("img", {src: "/img/time_currency.png"});
+		return React.createElement("img", {src: "img/time_currency.png"});
 	}
 });
 

@@ -11,7 +11,7 @@ function ActTimeCurrency(time) {
 	ActDefault.call(this, time);
 	
 	this.type = "time_curr";
-  this.icon_img = "/img/time_currency.png";
+  this.icon_img = "img/time_currency.png";
 }
 ActTimeCurrency.prototype = Object.create(ActDefault.prototype);
 ActTimeCurrency.prototype.constructor = ActTimeCurrency;
@@ -25,7 +25,7 @@ function ActUpgradePoint(time, level) {
 
   this.type = "upgradept";
 	this.level = level;
-  this.icon_img = "/img/upgrade_icon.png";
+  this.icon_img = "img/upgrade_icon.png";
 }
 ActUpgradePoint.prototype = Object.create(ActDefault.prototype);
 ActUpgradePoint.prototype.constructor = ActUpgradePoint;

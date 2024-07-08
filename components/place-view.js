@@ -4,7 +4,7 @@
 
 var PlaceImageView = React.createClass({
 	render: function() {
-		return React.createElement("img", {src: "/img/level"+this.props.level+"place.png"});
+		return React.createElement("img", {src: "img/level"+this.props.level+"place.png"});
 	}
 });
 

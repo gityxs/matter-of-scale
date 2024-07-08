@@ -51,11 +51,11 @@ function currencyicon(level) {
 }
 
 function prestige_png(level) {
-  return "/img/level"+level+"pres.png";
+  return "img/level"+level+"pres.png";
 }
 
 function placeicon(level) {
-	return "'/img/level"+level+"place.png'"
+	return "'img/level"+level+"place.png'"
 }
 
 function placeinfogoals(place) {
@@ -79,7 +79,7 @@ function upgradesshowcompleted() {
 }
 
 function researchimg(level) {
-	return "/img/level"+level+"pres.png";
+	return "img/level"+level+"pres.png";
 }
 
 function researchimgtag(level) {
