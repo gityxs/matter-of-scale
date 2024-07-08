@@ -47,7 +47,7 @@ function removenode(place) {
 }
 
 function currencyicon(level) {
-	return "<img class='tip' title='"+leveldata[level].currency.capitalize()+"' src='/img/level"+level+"curr.png' />"
+	return "<img class='tip' title='"+leveldata[level].currency.capitalize()+"' src='img/level"+level+"curr.png' />"
 }
 
 function prestige_png(level) {
