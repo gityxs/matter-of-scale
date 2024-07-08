@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Matter of Scale</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.1/themes/default/style.min.css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.3.0/jquery.jgrowl.css" />
+	<link rel="stylesheet" href="/jquery-ui-1.10.4.custom.css" />
+	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" href="styles/tabs.css" />
+	<link rel="stylesheet" href="/libs/tooltip.css" />
+	<script src="/libs/coin.js"></script>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-35588934-2', 'auto');
+		ga('require', 'displayfeatures');
+		ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+	<div id="react"></div>
+	<div id="actives"></div>
+	<div id="dialog"></div>
+	<div id="catchupdlg">
+		<div id="catch-up-time"></div>
+	</div>
+	<div id="dbgdlg"></div>
+	<div id="export-dlg" class="hidden" style="width: 80%;" spellcheck="false">
+		Here is your save.  Copy the full text.
+		<input id="export-text" type="textarea" style="width: 100%; height: 100%;"></input>
+	</div>
+
+<!--
+	Sounds provided by https://www.freesound.org/people/Corsica_S/
+ -->
+</body>
+<!-- Libs -->
+<script src="/libs/lz-string-1.3.3-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.1/jstree.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.3.0/jquery.jgrowl.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-min.js"></script>
+<script src="/libs/tooltipsy.source.js"></script>
+<script src="/libs/underscore.js"></script>
+<script src="/libs/react.js"></script>
+<script src="/libs/react-simpletabs.js"></script>
+<script src="/libs/tooltip.js"></script>
+<script src="/libs/react-social.js"></script>
+<!-- Raw Data -->
+<script src="levels.js"></script>
+<!-- Utils -->
+<script src="env.js"></script>
+<script src="utils.js"></script>
+<script src="dispatcher.js"></script>
+<script src="listener.js"></script>
+<!-- Objects -->
+<script src="place.js"></script>
+<script src="research.js"></script>
+<script src="actives.js"></script>
+<script src="governors.js"></script>
+<script src="level.js"></script>
+<script src="building.js"></script>
+<script src="stats.js"></script>
+<script src="game.js"></script>
+<script src="attr.js"></script>
+<script src="component.js"></script>
+<script src="mod.js"></script>
+<script src="moddb.js"></script>
+<script src="translator.js"></script>
+<!-- Data -->
+<script src="researches.js"></script>
+<script src="upgrades.js"></script>
+<script src="goals.js"></script>
+<script src="names.js"></script>
+<script src="achievements.js"></script>
+<script src="data/translations/en.js"></script>
+<!-- Components -->
+<script src="components/mixins/tooltip-mixin.js"></script>
+<script src="components/app-view.js"></script>
+<script src="components/game-view.js"></script>
+<script src="components/cost-view.js"></script>
+<script src="components/hierarchy-view.js"></script>
+<script src="components/hierarchy-level-view.js"></script>
+<script src="components/hierarchy-location-view.js"></script>
+<script src="components/debug/optimizer-view.js"></script>
+<script src="components/place-view.js"></script>
+<script src="components/research-view.js"></script>
+<script src="components/upgrade-view.js"></script>
+<script src="components/stat-view.js"></script>
+<script src="components/feat-view.js"></script>
+<script src="components/option-view.js"></script>
+<script src="components/social-view.js"></script>
+<script src="components/manager-view.js"></script>
+<!-- Views -->
+<script src="activeview.js"></script>
+<!-- Main -->
+<script src="main.js"></script>
+</html>
