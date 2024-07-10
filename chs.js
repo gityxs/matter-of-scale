@@ -367,6 +367,7 @@ var cnPrefix = {
     "Toggle Music: ": "切换声音: ",
     "Hamlet (Next in ": "村庄 (下一个在 ",
     "Village (Next in ": "乡村 (下一个在 ",
+    "Town (Next in ": "城镇 (下一个在 ",
     "Grants base income of ": "给予基础收入 ",
     "Increases upgrade point generation by ": "使升级点生成增加 ",
     "": "",
