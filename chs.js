@@ -536,6 +536,7 @@ var cnRegReplace = new Map([
     [/^Build (.+) Pathfinders$/, '建造 $1 探路者'],
     [/^Build (.+) Rivers$/, '建造 $1 河流'],
     [/^Build (.+) Roasters$/, '建造 $1 烘烤器'],
+    [/^Build (.+) Digger$/, '建造 $1 挖掘机'],
     [/^Build (.+) Mixers$/, '建造 $1 搅拌机'],
     [/^Build (.+) Sculptors$/, '建造 $1 雕塑家'],
     [/^Build (.+) Trailblazers$/, '建造 $1 开拓者'],
