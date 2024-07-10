@@ -107,7 +107,7 @@ var cnItems = {
     "Wellspring": "水井",
     "Woodsman": "樵夫",
     "Export game to string": "将游戏存档导出为字符串",
-    "Import game from string": "从字符串中导入游戏粗电脑",
+    "Import game from string": "从字符串中导入游戏存档",
     "Increases duration of Prestige events by 25%": "声望事件的持续时间增加25%",
     "Increases duration of Upgrade events by 25%": "升级事件的持续时间增加25%",
     "Increases duration of Vote events by 25%": "增加投票事件的持续时间25%",
