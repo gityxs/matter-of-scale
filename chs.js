@@ -698,6 +698,7 @@ var cnRegReplace = new Map([
     [/^County buildings cost (.+) \(from (.+)\) less$/, '县城 建筑的成本减少 $1 \(原为 $2\)'],
     [/^City buildings cost (.+) \(from (.+)\) less$/, '城市 建筑的成本减少 $1 \(原为 $2\)'],
     [/^Village buildings cost (.+) \(from (.+)\) less$/, '乡村 建筑的成本减少 $1 \(原为 $2\)'],
+    [/^Castle buildings cost (.+) \(from (.+)\) less$/, '城堡 建筑的成本减少 $1 \(原为 $2\)'],
     [/^Hamlet buildings cost (.+) \(from (.+)\) less$/, '村庄 建筑的成本减少 $1 \(原为 $2\)'],
     [/^Autobuy Bloodhound cost (.+) \(from (.+)\)$/, '自动购买 猎犬 的成本 $1 \(原为 $2\)'],
     [/^Autobuy Spearman cost (.+) \(from (.+)\)$/, '自动购买 枪兵 的成本 $1 \(原为 $2\)'],
