@@ -1004,6 +1004,7 @@ var cnRegReplace = new Map([
     [/^Universe gain ([\d\.,]+)$/, '宇宙 增益 $1'],
     [/^Galaxy gain ([\d\.,]+)$/, '星系 增益 $1'],
     [/^Planet gain ([\d\.,]+)$/, '星球 增益 $1'],
+    [/^Empire gain ([\d\.,]+)$/, '帝国 增益 $1'],
     [/^City gain ([\d\.,]+)$/, '城市 增益 $1'],
     [/^System gain ([\d\.,]+)$/, '系统 增益 $1'],
     [/^Kingdom gain ([\d\.,]+)$/, '王国 增益 $1'],
